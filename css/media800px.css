@@ -1,0 +1,182 @@
+@media(min-width:600px) and (max-width: 800px) {
+    .header-bg{
+        background-position: center;
+    }
+    
+    .nav-li_wrapper{
+        display: flex;
+        list-style:none;
+    }
+    .nav{
+        width: 100%;
+    }
+    .menu-hidden{
+        display: none;
+    }
+    
+    /*****************************************/
+    .services-content{
+        width: 100%;
+        justify-content: center;
+    }
+    .services-content-border{
+        height: auto;
+    }
+    .services-content-wrapper{
+        height: auto;
+    }
+    .services-content-border:nth-child(1){
+        height: auto;
+    }
+    .services-content-wrapper:nth-child(1){
+        height: auto;
+    }
+    
+    
+    /*******************************************/
+    .album-header{
+        margin-left: 10px;
+    }
+    .album-list{
+        justify-content: center;
+    }
+    .album-button{
+        margin-right: 10px;
+    }
+    .photo-border{
+        margin-right: 40px;
+    }
+    /********************************************/
+    .video-contain{
+        margin-right: 20px
+    }
+    .video-wrapper{
+        justify-content: space-around;
+    }
+    .video-button{
+        margin-right: 10px;
+    }
+    .video-header{
+        margin-left: 10px;
+    }
+    /********************************************/
+    
+    .about-contain{
+        width: 100%;
+        justify-content: center
+    }
+    .about-photo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .about-certificates{
+        height: auto;
+    }
+    .certificate{
+        flex-direction: column;
+    }
+    .certificate-border{
+        display: none;
+    }
+    .certificate-border_hidden{
+        display: flex;
+        
+    }
+    .certificate-text{
+        margin-bottom: 2%;
+    }
+    
+    /*************************************/
+    .communication-content{
+        justify-content: space-around;
+    }
+    
+    .communication-contain{
+        width:100%;
+    }
+    /*************************************/
+    .communication-content{
+        justify-content: space-around;
+    }
+    .communication-header{
+        margin-left: 15px;
+    }
+    .footer-content{
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:800px) and (max-width: 1170px){
+    .services-content{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    /************************************/
+    
+    .album-list{
+        justify-content: space-around;
+    }
+    .album-header{
+        margin-left: 10px;
+    }
+    .album-button{
+        margin-right: 10px;
+    }
+    
+    /**************************************/
+    
+    .photo-border{
+        margin-right: 40px;
+    }
+    
+    /**************************************/
+    
+    .video-wrapper{
+        justify-content: space-around;
+    }
+    .video-contain{
+        margin-right: 20px
+    }
+    .video-button{
+        margin-right: 10px;
+    }
+    .video-header{
+        margin-left: 10px;
+    }
+    
+    /****************************************/
+
+    .about-contain{
+        width: 100%;
+        justify-content: center
+    }
+    
+    /***************************************/
+    
+    .communication-content{
+        justify-content: space-around;
+    }
+    
+    .communication-contain{
+        width:100%;
+    }
+    .communication-header{
+        margin-left: 15px;
+    }
+    .footer-content{
+        width: 100%;
+        justify-content: space-around;
+    }
+}

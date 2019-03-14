@@ -1,0 +1,230 @@
+@media (min-width:320px) and (max-width: 600px) {
+    .container-nav{
+        width:600px;
+        padding-bottom: 10px;
+    }
+    .header-bg{
+        width: 600px;
+        background-position: center;
+    }
+    .nav-ul{
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-li{
+        display: none;
+    }
+    .nav-ul-button{
+        display:flex;
+        width: 140px;
+        height: 65px;
+        color: #fff;
+        border: 3px solid #fff;
+        border-radius: 2px;
+        flex-direction: column;
+        position: fixed;
+        margin-top: 12px;
+        margin-left: -220px;
+        background-color: #165C85;
+        font-size: 30px;
+    }
+    .nav-ul-button:hover{
+        margin-left: -195px;
+        width: 200px;
+        display: flex;
+        height: 240px;
+    }
+    .nav-ul-button:hover .nav-li_hidden{
+        display: flex;
+    }
+    .nav-ul-button:hover .menu-hidden{
+        display: none;
+    }
+    .menu-hidden{
+        display: flex;
+    }
+    .work{
+        width: 250px;
+        font-size: 24px;
+    }
+    .link-img{
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+    }
+    .phone-img{
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+    }
+    .phone-link{
+        width: 250px;
+        font-size: 24px;
+    }
+    .link-span{
+        width: 90px
+    }
+    
+    .link-vk{
+        width: 38px;
+        height: 24px;
+    }
+    .link-insta{
+        width: 25px;
+        height: 25px;
+    }
+    .header-contain{
+        width: 100%;
+    }
+    .header-margin-contain{
+        width: 500px;
+    }
+    .header-h1{
+        font-size: 38px
+    }
+    .header-text{
+        width: 500px;
+        font-size: 23px;
+        padding: 10px
+    }
+    .header-button{
+        width: 380px;
+        margin: 0 auto;
+    }
+    /*************************************************/
+    .services{
+        width: 600px;
+    }
+    .services-content{
+        width: 320px;
+    }
+    
+    .services-content-border{
+        width: auto;
+
+    }
+    .services-content-wrapper{
+        width: auto;
+
+    }
+    .services-content-border:nth-child(1){
+        height: auto;
+    }
+    .services-content-wrapper:nth-child(1){
+        height: auto;
+    }
+    .services-content-wrapper:last-child{
+        height: 650px;
+    }
+    .services-wrapper-price{
+        margin-right: 15px;
+    }
+    .content-wrapper-header{
+        font-family:Lato-Bold;
+    }
+
+
+/******************************************************/
+
+    .album{
+        width: 600px;
+    }
+    .album-list{
+        justify-content: center;
+    }
+    .photo-border{
+        margin-right: 40px;
+    }
+    .album-header{
+        margin-left: 10px;
+    }
+    .album-button{
+        margin-right: 10px;
+    }
+    
+    
+    /****************************************************************/
+    
+    .video{
+        width:600px;
+    }
+    .video-wrapper{
+        justify-content: center;
+    }
+    .video-button{
+        margin-right: 10px;
+    }
+    .video-header{
+        margin-left: 10px;
+    }
+    .video-button{
+        padding-left: 8.2%;
+    }
+    /*************************************************/
+    .about{
+        width: 600px;
+    }
+    .about-contain{
+        width: 600px;
+    }
+    .about-header{
+        margin-left: 15px;
+    }
+    .about-photo{
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .about-certificates{
+        height: auto;
+    }
+    .certificate{
+        flex-direction: column;
+    }
+    .certificate-border{
+        display: none;
+    }
+    .certificate-border_hidden{
+        display: flex;
+        
+    }
+    .certificate-text{
+        width: auto;
+        font-size: 24px;
+        margin-bottom: 15px;;
+    }
+    
+    .communication-content{
+        justify-content: space-around;
+    }
+    /*******************************************/
+    .communication{
+        width:600px;
+    }
+    .communication-contain{
+        width:100%;
+    }
+    .communication-header{
+        margin-left: 15px;
+    }
+    .communication-content{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .communication-wrapper{
+        margin: 15px;
+    }
+    /*********************************************/
+    .footer{
+        width: 600px;
+        margin:0 auto;
+    }
+    .footer-content{
+        width:570px;
+        margin: 0 15px;
+    }
+}
