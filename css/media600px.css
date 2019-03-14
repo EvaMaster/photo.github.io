@@ -227,4 +227,11 @@
         width:570px;
         margin: 0 15px;
     }
+    
+    .mfp-bg{
+        width:600px;
+    }
+    .mfp-wrap {
+        width: 600px;
+    }
 }

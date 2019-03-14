@@ -5,30 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>test</title>
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/media800px.css">
         <link rel="stylesheet" href="css/media600px.css">
+        
+
     </head>
     <body>
     <header class="header">
         <div class="container-nav">
            <ul class="nav-ul-button"><p class="menu-hidden">Меню</p>
                 <li class="nav-li_hidden"><a href="#services" class="header-link">Услуги</a></li>
-                <li class="nav-li_hidden"><a href="" class="header-link">Портфолио</a></li>
-                <li class="nav-li_hidden"><a href="" class="header-link">Обо&nbspмне</a></li>
-                <li class="nav-li_hidden"><a href="" class="header-link">Контакты</a></li>
-                <li class="nav-li_hidden"><a href="" class="header-link">Вопросы</a></li>
+                <li class="nav-li_hidden"><a href="#album" class="header-link">Портфолио</a></li>
+                <li class="nav-li_hidden"><a href="#about" class="header-link">Обо&nbspмне</a></li>
+                <li class="nav-li_hidden"><a href="#footer" class="header-link">Контакты</a></li>
+                <li class="nav-li_hidden"><a href="#communication" class="header-link">Вопросы</a></li>
             </ul>
             <nav class="nav">
                 <ul class="nav-ul">
                     <li class="nav-li"><a href="#services" class="header-link">Услуги</a></li>
-                    <li class="nav-li"><a href="" class="header-link">Портфолио</a></li>
-                    <li class="nav-li"><a href="" class="header-link">Обо&nbspмне</a></li>
-                    <li class="nav-li"><a href="" class="header-link">Контакты</a></li>
+                    <li class="nav-li"><a href="#album" class="header-link">Портфолио</a></li>
+                    <li class="nav-li"><a href="#about" class="header-link">Обо&nbspмне</a></li>
+                    <li class="nav-li"><a href="#footer" class="header-link">Контакты</a></li>
                     <li class="nav-li_wrapper">
-                        <a href="#" class="logo-link"></a>
+                        <a href="" class="logo-link"></a>
                     </li>
-                    <li class="nav-li"><a href="" class="header-link">Вопросы</a></li>
+                    <li class="nav-li"><a href="#communication" class="header-link">Вопросы</a></li>
                 </ul>
                 <div class="work">
                     <div class="work-img"></div>
@@ -63,8 +66,8 @@
             </div>
         </div>
     </header>
-    <section class="services">
-        <div id="services" class="services-contain">
+    <section id="services" class="services">
+        <div class="services-contain">
             <h2 class="services-header">Цены и услуги</h2>
             <hr class="services-line">
             <div class="services-content">
@@ -135,55 +138,68 @@
             </div>
         </div>
     </section>
-    <section class="album">
+    <section id="album" class="album">
         <div class="album-content">
             <h2 class="album-header">Фотоотчеты</h2>
             <hr class="album-line">
             <div class="album-list">
-                <div class="photo-contain">
+                <div class="photo-contain d-f">
                     <div class="photo-border">
-                        <img class="album-photo" src="img/photo-1.jpg" alt="">
+                        <a class="album-photo" href="img/photo-1.jpg">
+	                        <img class="album-photo" src="img/photo-1.jpg">
+                        </a>
                     </div>
                     <span class="photo-name">Павел & Алена</span>
                     <span class="photo-date">03/06/18</span>
                 </div>
-                <div class="photo-contain">
-                    <div class="photo-border">
-                        <img class="album-photo" src="img/photo-2.jpg" alt="">
+                <div class="photo-contain d-f">
+                    <div class="photo-border ">
+                        <a class="album-photo" href="img/photo-2.jpg">
+	                        <img class="album-photo" src="img/photo-2.jpg">
+                        </a>
                     </div>
                     <span class="photo-name">Сергей & Дарья</span>
                     <span class="photo-date">02/06/18</span>
                 </div>
-                <div class="photo-contain">
+                <div class="photo-contain d-f">
                     <div class="photo-border">
-                        <img class="album-photo" src="img/photo-3.jpg" alt="">
+                        <a class="album-photo" href="img/photo-3.jpg">
+	                        <img class="album-photo" src="img/photo-3.jpg">
+                        </a>
                     </div>
                     <span class="photo-name">Максим & Александра</span>
                     <span class="photo-date">25/05/18</span>
                 </div>
-                <div class="photo-contain">
+                <div class="photo-contain d-none">
                     <div class="photo-border">
-                        <img class="album-photo" src="img/photo-4.jpg" alt="">
+                        <a class="album-photo" href="img/photo-4.jpg">
+	                        <img class="album-photo" src="img/photo-4.jpg">
+                        </a>
                     </div>
                     <span class="photo-name">Александр & Светлана</span>
                     <span class="photo-date">21/05/18</span>
                 </div>
-                <div class="photo-contain">
+                <div class="photo-contain d-none">
                     <div class="photo-border">
-                        <img class="album-photo" src="img/photo-5.jpg" alt="">
+                        <a class="album-photo" href="img/photo-5.jpg">
+	                        <img class="album-photo" src="img/photo-5.jpg">
+                        </a>
                     </div>
                     <span class="photo-name">Вячеслав & Майя</span>
                     <span class="photo-date">03/05/18</span>
                 </div>
-                <div class="photo-contain">
+                <div class="photo-contain d-none">
                     <div class="photo-border">
-                        <img class="album-photo" src="img/photo-6.jpg" alt="">
+                        <a class="album-photo" href="img/photo-6.jpg">
+	                        <img class="album-photo" src="img/photo-6.jpg">
+                        </a>
                     </div>
                     <span class="photo-name">Наим & Татьяна</span>
                     <span class="photo-date">01/05/18</span>
                 </div>
             </div>
-            <button id="album-button" class="album-button">Смотреть все альбомы</button>
+            <button id="album-button" class="album-button d-f">Смотреть все альбомы</button>
+            <button id="album-button_close" class="album-button d-none">Скрыть все альбомы</button>
         </div>
     </section>
     <section class="video">
@@ -228,7 +244,7 @@
             <button class="video-button">Смотреть все видео</button>
         </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
         <div class="about-content">
            <h2 class="about-header">Обо мне</h2>
            <hr class="about-line">
@@ -268,8 +284,8 @@
             </div>
         </div>
     </section>
-    <section class="communication">
-        <div class="communication-contain">
+    <section id="communication" class="communication">
+        <div  class="communication-contain">
             <div class="communication-headline">
                 <h2 class="communication-header">Предлагаю пообщаться</h2>
                 <hr class="communication-line">
@@ -293,7 +309,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <div class="footer-content">
             <a class="footer-logo-link" href=""></a>
             <span class="footer-owner">Руслан Растопченко</span>
@@ -309,6 +325,9 @@
             <a class="footer-text footer-link" href="#">Разработка сайта Студия “ЯР”</a>
         </div>
     </footer>
+    
+    <script src="jquery.magnific-popup.min.js"></script>
+    <script src="magnific.js"></script>
     <script src="main.js"></script>
     </body>
 </html>
