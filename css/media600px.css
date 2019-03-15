@@ -15,35 +15,6 @@
     .nav-li{
         display: none;
     }
-    .nav-ul-button{
-        display:flex;
-        width: 140px;
-        height: 65px;
-        color: #fff;
-        border: 3px solid #fff;
-        border-radius: 2px;
-        flex-direction: column;
-        position: fixed;
-        margin-top: 12px;
-        margin-left: -220px;
-        background-color: #165C85;
-        font-size: 30px;
-    }
-    .nav-ul-button:hover{
-        margin-left: -195px;
-        width: 200px;
-        display: flex;
-        height: 240px;
-    }
-    .nav-ul-button:hover .nav-li_hidden{
-        display: flex;
-    }
-    .nav-ul-button:hover .menu-hidden{
-        display: none;
-    }
-    .menu-hidden{
-        display: flex;
-    }
     .work{
         width: 250px;
         font-size: 24px;
@@ -92,6 +63,25 @@
         width: 380px;
         margin: 0 auto;
     }
+    
+    .menu-hidden{
+        display: flex;
+    }
+    
+    .nav-ul-button{
+        display:flex;
+        width: 140px;
+        height: 65px;
+        color: #fff;
+        border: 3px solid #fff;
+        border-radius: 2px;
+        flex-direction: column;
+        position: fixed;
+        margin-top: 12px;
+        margin-left: -220px;
+        background-color: #165C85;
+        font-size: 30px;
+    }
     /*************************************************/
     .services{
         width: 600px;
@@ -101,24 +91,18 @@
     }
     
     .services-content-border{
-        width: auto;
-
+        height: auto;
+        
     }
     .services-content-wrapper{
-        width: auto;
-
+        height: auto;
     }
     .services-content-border:nth-child(1){
         height: auto;
+        margin-right: 85px;
     }
     .services-content-wrapper:nth-child(1){
-        height: auto;
-    }
-    .services-content-wrapper:last-child{
-        height: 650px;
-    }
-    .services-wrapper-price{
-        margin-right: 15px;
+        height: 100%;
     }
     .content-wrapper-header{
         font-family:Lato-Bold;
@@ -233,5 +217,9 @@
     }
     .mfp-wrap {
         width: 600px;
+    }
+    
+    .mfp-container{
+        height: 150%;
     }
 }

@@ -13,15 +13,16 @@
 
     </head>
     <body>
-    <header class="header">
+    <header id="header" class="header">
         <div class="container-nav">
-           <ul class="nav-ul-button"><p class="menu-hidden">Меню</p>
-                <li class="nav-li_hidden"><a href="#services" class="header-link">Услуги</a></li>
-                <li class="nav-li_hidden"><a href="#album" class="header-link">Портфолио</a></li>
-                <li class="nav-li_hidden"><a href="#about" class="header-link">Обо&nbspмне</a></li>
-                <li class="nav-li_hidden"><a href="#footer" class="header-link">Контакты</a></li>
-                <li class="nav-li_hidden"><a href="#communication" class="header-link">Вопросы</a></li>
-            </ul>
+            <a href="#test-popup" class="open-popup-link menu-hidden nav-ul-button"><p class="header-menu">Menu</p></a>
+            <div id="test-popup" class="white-popup mfp-hide">
+                <a href="#services" class="header-link_hidden"><p class="link_hidden">Услуги</p></a>
+                <a href="#album" class="header-link_hidden"><p class="link_hidden">Портфолио</p></a>
+                <a href="#about" class="header-link_hidden"><p class="link_hidden">Обо&nbspмне</p></a>
+                <a href="#footer" class="header-link_hidden"><p class="link_hidden">Контакты</p></a>
+                <a href="#communication" class="header-link_hidden"><p>Вопросы</p></a>
+            </div>
             <nav class="nav">
                 <ul class="nav-ul">
                     <li class="nav-li"><a href="#services" class="header-link">Услуги</a></li>
@@ -29,7 +30,7 @@
                     <li class="nav-li"><a href="#about" class="header-link">Обо&nbspмне</a></li>
                     <li class="nav-li"><a href="#footer" class="header-link">Контакты</a></li>
                     <li class="nav-li_wrapper">
-                        <a href="" class="logo-link"></a>
+                        <a href="#header" class="logo-link"></a>
                     </li>
                     <li class="nav-li"><a href="#communication" class="header-link">Вопросы</a></li>
                 </ul>
@@ -43,13 +44,13 @@
                 <div class="phone-link">
                     <div class="phone-contain">
                         <div class="phone-img"></div>
-                        <span class="phone-numb">7 951 152 78 52</span>
+                        <a class="phone-numb">7 951 152 78 52</a>
                     </div>
                     <div class="link-contain">
                         <div class="link-img"></div>
                         <span class="link-span">В сетях</span>
-                        <a class="link-vk" href="vk.com"></a>
-                        <a class="link-insta" href="instagram.com"></a>
+                        <a class="link-vk" href="https://vk.com/"></a>
+                        <a class="link-insta" href="https://instagram.com"></a>
                     </div>
                 </div>
             </nav>
@@ -61,7 +62,7 @@
                     <hr class="header-line">
                     <span class="header-title">Свадебный ведущий</span>
                     <span class="header-text">Привет! Я - свадебный ведущий.<br> Это моя основная деятельность и любимое занятие. Создавать настроение праздника, веселых развлечений и доброжелательной, душевной атмосферы – это моя главная задача.</span>
-                    <button class="header-button">Заказать мероприятие</button>
+                    <a class="header-button" href="#services"><p class="header-button_style">Заказать мероприятие</p></a>
                 </div>
             </div>
         </div>
@@ -75,7 +76,7 @@
                     <div class="services-content-wrapper">
                        <div class="services-contain-menu">
                             <h2 class="content-wrapper-header">Silver</h2>
-                            <ul class="services-wrapper-menu">
+                            <ul class=" services-wrapper-menu services-wrapper-menu-800">
                                 <li class="services-wrapper-tab">Ведущий  с программой</li>
                                 <li class="services-wrapper-tab">Классный ди-джей</li>
                                 <li class="services-wrapper-tab">Комплект звука «Deep Sound» 0,7 кВт</li>
@@ -94,7 +95,7 @@
                     <div class="services-content-wrapper">
                         <div class="services-contain-menu">
                             <h2 class="content-wrapper-header">Gold</h2>
-                            <ul class="services-wrapper-menu">
+                            <ul class="d-f services-wrapper-menu ">
                                 <li class="services-wrapper-tab">Ведущий  с программой</li>
                                 <li class="services-wrapper-tab">Сценарист, разработка сценари и тайминга</li>
                                 <li class="services-wrapper-tab">Координация</li>
@@ -115,7 +116,7 @@
                     <div class="services-content-wrapper">
                         <div class="services-contain-menu">
                             <h2 class="content-wrapper-header">Platinum</h2>
-                            <ul class="services-wrapper-menu">
+                            <ul class="d-f services-wrapper-menu">
                                 <li class="services-wrapper-tab">Ведущий  с программой</li>
                                 <li class="services-wrapper-tab">Сценарист, разработка сценария и тайминга</li>
                                 <li class="services-wrapper-tab">Координация</li>
@@ -153,7 +154,7 @@
                     <span class="photo-date">03/06/18</span>
                 </div>
                 <div class="photo-contain d-f">
-                    <div class="photo-border ">
+                    <div class="photo-border">
                         <a class="album-photo" href="img/photo-2.jpg">
 	                        <img class="album-photo" src="img/photo-2.jpg">
                         </a>
@@ -170,7 +171,7 @@
                     <span class="photo-name">Максим & Александра</span>
                     <span class="photo-date">25/05/18</span>
                 </div>
-                <div class="photo-contain d-none">
+                <div class="photo-contain d-f">
                     <div class="photo-border">
                         <a class="album-photo" href="img/photo-4.jpg">
 	                        <img class="album-photo" src="img/photo-4.jpg">
@@ -179,7 +180,7 @@
                     <span class="photo-name">Александр & Светлана</span>
                     <span class="photo-date">21/05/18</span>
                 </div>
-                <div class="photo-contain d-none">
+                <div class="photo-contain d-f ">
                     <div class="photo-border">
                         <a class="album-photo" href="img/photo-5.jpg">
 	                        <img class="album-photo" src="img/photo-5.jpg">
@@ -188,7 +189,7 @@
                     <span class="photo-name">Вячеслав & Майя</span>
                     <span class="photo-date">03/05/18</span>
                 </div>
-                <div class="photo-contain d-none">
+                <div class="photo-contain d-f">
                     <div class="photo-border">
                         <a class="album-photo" href="img/photo-6.jpg">
 	                        <img class="album-photo" src="img/photo-6.jpg">
@@ -196,6 +197,64 @@
                     </div>
                     <span class="photo-name">Наим & Татьяна</span>
                     <span class="photo-date">01/05/18</span>
+                </div>
+            </div>
+            <div class="album-list_hidden d-none">
+                <div class="album-list ">
+                    <div class="photo-contain d-f">
+                    <div class="photo-border">
+                        <a class="album-photo" href="img/photo-1.jpg">
+	                        <img class="album-photo" src="img/photo-1.jpg">
+                        </a>
+                    </div>
+                    <span class="photo-name">Павел & Алена</span>
+                    <span class="photo-date">03/06/18</span>
+                </div>
+                    <div class="photo-contain d-f">
+                    <div class="photo-border ">
+                        <a class="album-photo" href="img/photo-2.jpg">
+	                        <img class="album-photo" src="img/photo-2.jpg">
+                        </a>
+                    </div>
+                    <span class="photo-name">Сергей & Дарья</span>
+                    <span class="photo-date">02/06/18</span>
+                </div>
+                    <div class="photo-contain d-f">
+                    <div class="photo-border">
+                        <a class="album-photo" href="img/photo-3.jpg">
+	                        <img class="album-photo" src="img/photo-3.jpg">
+                        </a>
+                    </div>
+                    <span class="photo-name">Максим & Александра</span>
+                    <span class="photo-date">25/05/18</span>
+                </div>
+                    <div class="photo-contain d-f ">
+                    <div class="photo-border">
+                        <a class="album-photo" href="img/photo-4.jpg">
+	                        <img class="album-photo" src="img/photo-4.jpg">
+                        </a>
+                    </div>
+                    <span class="photo-name">Александр & Светлана</span>
+                    <span class="photo-date">21/05/18</span>
+                </div>
+                    <div class="photo-contain d-f ">
+                    <div class="photo-border">
+                        <a class="album-photo" href="img/photo-5.jpg">
+	                        <img class="album-photo" src="img/photo-5.jpg">
+                        </a>
+                    </div>
+                    <span class="photo-name">Вячеслав & Майя</span>
+                    <span class="photo-date">03/05/18</span>
+                </div>
+                    <div class="photo-contain d-f ">
+                    <div class="photo-border">
+                        <a class="album-photo" href="img/photo-6.jpg">
+	                        <img class="album-photo" src="img/photo-6.jpg">
+                        </a>
+                    </div>
+                    <span class="photo-name">Наим & Татьяна</span>
+                    <span class="photo-date">01/05/18</span>
+                </div>
                 </div>
             </div>
             <button id="album-button" class="album-button d-f">Смотреть все альбомы</button>
@@ -210,9 +269,9 @@
                 <div class="video-contain">
                     <div class="video-border">
                         <div class="video-img">
-                           <div class="video-img-1">
-                               <button class="video-play"></button>
-                           </div>
+                            <div class="video-img-1">
+                                <button class="video-play"></button>
+                            </div>
                         </div>
                     </div>
                     <span class="video-name">Николай & Виктория</span>
@@ -241,7 +300,45 @@
                     <span class="video-date">03/06/18</span>
                 </div>
             </div>
-            <button class="video-button">Смотреть все видео</button>
+            <div class="video_hidden d-none">
+                <div class="video-wrapper">
+                <div class="video-contain">
+                    <div class="video-border">
+                        <div class="video-img">
+                            <div class="video-img-1">
+                                <button class="video-play"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="video-name">Николай & Виктория</span>
+                    <span class="video-date">03/06/18</span>
+                </div>
+                <div class="video-contain">
+                    <div class="video-border">
+                        <div class="video-img">
+                            <div class="video-img-2">
+                                <button class="video-play"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="video-name">Сергей & Алёна</span>
+                    <span class="video-date">03/06/18</span>
+                </div>
+                <div class="video-contain">
+                    <div class="video-border">
+                        <div class="video-img">
+                            <div class="video-img-3">
+                                <button class="video-play"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="video-name">Александр & Светлана</span>
+                    <span class="video-date">03/06/18</span>
+                </div>
+            </div>
+            </div>
+            <button id="video-button" class="video-button d-f">Смотреть все видео</button>
+            <button id="video-button_hidden" class="video-button_hidden d-none">Скрыть все видео</button>
         </div>
     </section>
     <section id="about" class="about">
@@ -251,28 +348,38 @@
             <div class="about-contain">
                 <div class="about-photo">
                     <div class="about-photo-border">
-                        <img class="about-photo-img" src="img/about-me.jpg" alt="">
+                        <a class="album-photo" href="img/about-me.jpg">
+	                        <img class="about-photo-img" src="img/about-me.jpg" alt="">
+                        </a>
                     </div>
                     <div class="about-diploma_hidden">
                         <div class="certificate-border_hidden">
-                            <img class="certificate-img" src="img/diploma-1.jpg" alt="">
+                            <a class="album-photo" href="img/diploma-1.jpg">
+	                            <img class="certificate-img" src="img/diploma-1.jpg" alt="">
+                            </a>
                         </div>
                         <div class="certificate-border_hidden">
-                            <img class="certificate-img" src="img/diploma-2.jpg" alt="">
+                            <a class="album-photo" href="img/diploma-2.jpg">
+	                            <img class="certificate-img" src="img/diploma-2.jpg" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="about-certificates">
                     <div class="certificate">
                         <div class="certificate-border">
-                            <img class="certificate-img" src="img/diploma-1.jpg" alt="">
+                            <a class="album-photo" href="img/diploma-1.jpg">
+	                            <img class="certificate-img" src="img/diploma-1.jpg" alt="">
+                            </a>
                         </div>
                         <span class="certificate-text">Активный участник и помощник в проведении культурно-массовых мероприятий. Занимаюсь саморазвитием и потому постоянный участник обучающих мастер-классов и профессиональных тренингов, а именно:
                         </span>
                     </div>
                     <div class="certificate">
                         <div class="certificate-border">
-                            <img class="certificate-img" src="img/diploma-2.jpg" alt="">
+                            <a class="album-photo" href="img/diploma-2.jpg">
+	                            <img class="certificate-img" src="img/diploma-2.jpg" alt="">
+                            </a>
                         </div>
                         <ul class="certificate-wrapper">
                             <li class="certificate-wrapper-tab">Искусство нестандартных решений.<br>Повышение эффективности бизнеса</li>
@@ -293,7 +400,9 @@
             <div class="communication-content">
                 <div class="communication-content-photo-button">
                     <div class="communication-photo-border">
-                        <img class="communication-content-photo" src="img/me.jpg" alt="">
+                       <a class="album-photo" href="img/me.jpg">
+	                       <img class="communication-content-photo" src="img/me.jpg" alt="">
+                       </a>
                     </div>
                     <button class="communication-content-button">Написать сообщение</button>
                 </div>
@@ -311,18 +420,18 @@
     </section>
     <footer id="footer" class="footer">
         <div class="footer-content">
-            <a class="footer-logo-link" href=""></a>
+            <a class="footer-logo-link" href="#header"></a>
             <span class="footer-owner">Руслан Растопченко</span>
-            <a class="footer-phone" href=""><div class="footer-phone-img"></div><span class="footer-phone-text">7 951 152 78 52</span></a>
-            <a class="footer-mail" href=""><div class="footer-mail-img" ></div><span class="footer-mail-text">Infowedding@gmail.com</span></a>
+            <a class="footer-phone" href="#"><div class="footer-phone-img"></div><span class="footer-phone-text">7 951 152 78 52</span></a>
+            <a class="footer-mail" href="https://gmail.com"><div class="footer-mail-img" ></div><span class="footer-mail-text">Infowedding@gmail.com</span></a>
             <div class="footer-link-contain">
-                <a class="footer-vk" href=""></a>
-                <a class="footer-insta" href=""></a>
+                <a class="footer-vk" href="https://vk.com"></a>
+                <a class="footer-insta" href="https://instagramm.com"></a>
             </div>
         </div>
         <div class="footer-copyright">
             <span class="footer-text">© 2018 Все права защищены </span>
-            <a class="footer-text footer-link" href="#">Разработка сайта Студия “ЯР”</a>
+            <a class="footer-text footer-link" href="https://bydesign.by">Разработка сайта Студия “ЯР”</a>
         </div>
     </footer>
     

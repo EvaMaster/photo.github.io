@@ -38,3 +38,6 @@ ins {
 del {
 	text-decoration: line-through;
 }
+a:hover{
+    cursor: pointer;
+}

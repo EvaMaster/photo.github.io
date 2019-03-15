@@ -27,9 +27,11 @@
     }
     .services-content-border:nth-child(1){
         height: auto;
+        margin-right: 85px;
     }
     .services-content-wrapper:nth-child(1){
-        height: auto;
+        height: 100%;
+        /* margin-right: 85px; */
     }
     
     
